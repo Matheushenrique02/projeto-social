@@ -13,8 +13,8 @@ html ,body{
 }
 
 body{
-    background-image: url('../imagens/fundo-madeira.jpg');
-    background-position: top center;
+    background-image: url('../imagens/fundo05.jpg');
+    background-position:  center;
     background-size: cover;
 }
 
@@ -42,6 +42,27 @@ iframe#tela{
     top: 70px;
     left: 17px;
     width: 207px;
-    height: 368px;
+    height: 365px;
     
+}
+
+#redessociais{
+    text-align: right;
+
+}
+
+
+#redessociais img{
+    margin: 10px;
+    width: 50px;
+    border-radius: 50%;
+    box-shadow: 3px 3px 3px black; 
+    box-sizing: border-box; 
+}
+
+#redessociais img:hover{
+    transform:translate(-1px,-2px);
+    transition: 0.5s;
+    border: 2px solid rgba(245, 245, 245, 0.685);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.438);
 }
